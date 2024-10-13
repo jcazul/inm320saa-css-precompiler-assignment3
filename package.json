@@ -1,0 +1,19 @@
+{
+  "name": "assign3-css-precompiler",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "juliann": "lite-server --baseDir=\"public\"",
+    "azul": "sass --watch src/scss:public/assets/css",
+    "start": "concurrently \"npm run juliann\" \"npm run azul\""
+  },
+  "keywords": [],
+  "author": "Juliann Azul",
+  "license": "private",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "lite-server": "^2.6.1",
+    "sass": "^1.79.5"
+  }
+}
